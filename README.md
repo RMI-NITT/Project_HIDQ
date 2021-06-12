@@ -1,6 +1,16 @@
 # HIDQ_Sangam
 (about project in brief)
 
+### Contents 
+- Problem statement
+- Proposed solution with block diagram
+- Implementation
+  - Sprawl mechanism
+  - PED (Power Engage Disengage) mechanism
+  - Autonomous detection
+  - Drone sketch
+- Novelty and innovativeness
+ 
 ## Problem statement
 
 ## Proposed solution
@@ -8,12 +18,11 @@
 ### Block diagram
 ![block_diagram](https://user-images.githubusercontent.com/63254914/121786411-458cd300-cbdd-11eb-865a-196d37d3b7b5.png)
 
-
 ## Implementation
 
 ### Sprawl mechanism
 
-### Power Engage Disengage mechanism
+### PED mechanism
 
 ### Autonomous detection
 
