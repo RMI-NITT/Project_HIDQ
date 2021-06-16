@@ -40,10 +40,13 @@ This project focuses on building a efficient and innovative solution to this ins
 ## Implementation
 
 ### Sprawl mechanism
+The sprawl mechanism allows the bot to transform from a quadcopter to four wheeled differential drive bot. The sprawl angle is the relative angle between the plane of the wheels (and propellers) and the main body. When it is zero, the bot is in quadcopter mode and when the angle is sufficiently high, it can be driven as a four wheeled bot. Worm gears are used to ensure high torque ratio and self-locking mechanism when gears are inactive. Each of the worm gears on the two sides is rotated using the conical gear setup that ensures equal rotational speed but different rotational direction.
 
 ### PED mechanism
+In the previous designs of this project, both the propellers and the wheels are active throughout the runtime, and this consumes a lot of power. So, we came up with a novel power engage disengage mechanism to actuate either the propellers (quadcopter mode) or the wheels (four wheeled differential drive mode), this ensures that less power is wasted when the drone operates which leads to increased runtime.
 
 ### Autonomous detection
+An IP camera can be accessed in OpenCV by providing the streaming URL of the camera in the constructor of cv2.VideoCapture. The HTTP protocol is used by the camera to stream video. The frames of the streamed video are processed by the deep learning model using keras and TensorFlow framework to detect anomalies on industrial structures. The datasets of cracks and rust from Kaggle and inception v3 model from local pre-trained weights have been used. The model itself is made up of symmetric and asymmetric building blocks, including convolutions, average pooling, max pooling, concats, dropouts, and fully connected layers. Batch norm is used extensively throughout the model and applied to activation inputs. Loss is computed via SoftMax.
 
 ### Drone sketch
 ![WhatsApp Image 2021-03-24 at 13 40 13](https://user-images.githubusercontent.com/63254914/121786457-753bdb00-cbdd-11eb-8a6d-b470b71ed607.jpeg)
