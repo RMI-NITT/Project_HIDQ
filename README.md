@@ -5,11 +5,11 @@
 - [Problem statement](#problem-statement)
 - [Proposed solution](#proposed-solution)
 - [Implementation](#implementation)
-  - Sprawl mechanism(#sprawl-mechanism)
-  - PED (Power Engage Disengage) mechanism
-  - Autonomous detection
-  - Drone sketch
-- Novelty and innovativeness
+  - [Sprawl mechanism](#sprawl-mechanism)
+  - [PED (Power Engage Disengage) mechanism](#ped-mechanism)
+  - [Autonomous detection](autonomous-detection)
+  - [Drone sketch](drone-sketch)
+- [Novelty and innovativeness](novelty-and-innovativeness)
  
 ## Problem statement
 
