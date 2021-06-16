@@ -2,8 +2,8 @@
 (about project in brief)
 
 ### Contents 
-- [Problem statement](https://github.com/aswin-sreekumar/HIDQ_Sangam/blob/main/README.md#problem-statement)
-- Proposed solution with block diagram
+- [Problem statement](#problem-statement)
+- [Proposed solution with block diagram](#proposed-solution)
 - Implementation
   - Sprawl mechanism
   - PED (Power Engage Disengage) mechanism
