@@ -1,5 +1,5 @@
 # HIDQ_Sangam
-(about project in brief)
+A convertible hybrid drive quadcopter that is manually controlled to move across inaccessible places as a drone or a 4-wheeler bot using a self-transforming mechanism, equipped with camera to inspect various industrial systems and check for defects and anomalies with Machine Learning and Image Processing algorithms at the controller side.
 
 ### Contents 
 - [Problem statement](#problem-statement)
@@ -11,12 +11,30 @@
   - [Drone sketch](#drone-sketch)
 - [Novelty and innovativeness](#novelty-and-innovativeness)
  
+--------------------------------------------------------------------------
+
 ## Problem statement
+- Maintenance and inspection form a crucial part of an industry’s operation. 
+- Proper checks and inspection are very much essential for efficient operation, avoid lethal consequences, to ensure safety and avoid physical damage. 
+- Human physical inspection has constraints such as narrow spaces, dangerous environments and does not ensure precision and dependable results always.
+- Physical inspection of systems like HVAC, pipes and other heavy machinery is difficult, takes a lot of time and will not be accurate.
+- Sometimes, it may also be dangerous for humans to conduct physical inspection
+- In cases of narrow or cramped spaces around/under heavy machinery, lot of manpower is required to inspect those spaces.
+
+This project focuses on building a efficient and innovative solution to this inspection problem.
 
 ## Proposed solution
+- A convertible hybrid drive quadcopter is manually controlled to move across inaccessible places as a drone or a 4-wheeler convertible using a self-transforming mechanism, equipped with a camera to inspect various industrial systems and check for defects and anomalies using Machine Learning and Image Processing algorithms at the controller side.
+- Same BLDC motors power both the wheels and the propellers in each mode. A novel idea for power engaging disengaging mechanism is inherited which engages either the wheels or the propellers depending on the configuration of the robot (4-wheeler or drone) 
+- Variable sprawl angle using self-locking gears to change dimension of bot to required arena/space.
+- Automated crack and rust detection using integrated Image processing and Deep learning using Convolutional Neural Network
+- Data processed and stored for future usage.
+- The convertible bot can be used to inspect various systems of industries like chimney, ventilation systems, HVAC, pressurized tanks, boilers, or any confined space to detect for leakage, corrosion, cracks and other structural defects and anomalies.
 
 ### Block diagram
 ![block_diagram](https://user-images.githubusercontent.com/63254914/121786411-458cd300-cbdd-11eb-865a-196d37d3b7b5.png)
+
+----------------------
 
 ## Implementation
 
@@ -37,6 +55,8 @@
 -	Compared to physical inspection by humans, it is safe, faster, more accurate and avoids the need for scaffolding and avoids any risk to human life.
 -	A novel method for the bot to efficiently maneuver and move about any confined space and systems connected at different heights.
 -	Convolutional Neural Networking to detect multiple potential defects that is precise, accurate, faster and reduces the workload of the operator.
+
+---------------------------------------------------
 
 ## Team HIDQ
 - [Aswin Sreekumar](https://github.com/aswin-sreekumar)
