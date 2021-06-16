@@ -3,9 +3,9 @@
 
 ### Contents 
 - [Problem statement](#problem-statement)
-- [Proposed solution with block diagram](#proposed-solution)
-- Implementation
-  - Sprawl mechanism
+- [Proposed solution](#proposed-solution)
+- [Implementation](#implementation)
+  - Sprawl mechanism(#sprawl-mechanism)
   - PED (Power Engage Disengage) mechanism
   - Autonomous detection
   - Drone sketch
