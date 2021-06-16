@@ -9,8 +9,12 @@ A convertible hybrid drive quadcopter that is manually controlled to move across
   - [Sprawl mechanism](#sprawl-mechanism)
   - [PED (Power Engage Disengage) mechanism](#ped-mechanism)
   - [Autonomous detection](#autonomous-detection)
-  - [Drone sketch](#drone-sketch)
 - [Novelty and innovativeness](#novelty-and-innovativeness)
+- [Gallery](#gallery)
+  - [Drone sketch](#drone-sketch)
+  - [Exploded view](#exploded-view)
+  - [HIDQ bot](#hidq-bot)
+  - [Self transforming mechanism](#self-transforming-mechanism)
  
 --------------------------------------------------------------------------
 
@@ -42,21 +46,16 @@ This project focuses on building a efficient and innovative solution to this ins
 ### Sprawl mechanism
 The sprawl mechanism allows the bot to transform from a quadcopter to four wheeled differential drive bot. The sprawl angle is the relative angle between the plane of the wheels (and propellers) and the main body. When it is zero, the bot is in quadcopter mode and when the angle is sufficiently high, it can be driven as a four wheeled bot. Worm gears are used to ensure high torque ratio and self-locking mechanism when gears are inactive. Each of the worm gears on the two sides is rotated using the conical gear setup that ensures equal rotational speed but different rotational direction.
 
+![ip_ml](https://user-images.githubusercontent.com/63254914/122218645-44ed8880-cecc-11eb-9fea-76cf10efe5bb.gif)
+
+
 ### PED mechanism
 In the previous designs of this project, both the propellers and the wheels are active throughout the runtime, and this consumes a lot of power. So, we came up with a novel power engage disengage mechanism to actuate either the propellers (quadcopter mode) or the wheels (four wheeled differential drive mode), this ensures that less power is wasted when the drone operates which leads to increased runtime.
 
-
 ![gputest_2](https://user-images.githubusercontent.com/63254914/122204002-3d25e800-cebc-11eb-870e-8d2952ef6038.gif)
-
 
 ### Autonomous detection
 An IP camera can be accessed in OpenCV by providing the streaming URL of the camera in the constructor of cv2.VideoCapture. The HTTP protocol is used by the camera to stream video. The frames of the streamed video are processed by the deep learning model using keras and TensorFlow framework to detect anomalies on industrial structures. The datasets of cracks and rust from Kaggle and inception v3 model from local pre-trained weights have been used. The model itself is made up of symmetric and asymmetric building blocks, including convolutions, average pooling, max pooling, concats, dropouts, and fully connected layers. Batch norm is used extensively throughout the model and applied to activation inputs. Loss is computed via SoftMax.
-
-### Drone sketch
-![WhatsApp Image 2021-03-24 at 13 40 13](https://user-images.githubusercontent.com/63254914/121786457-753bdb00-cbdd-11eb-8a6d-b470b71ed607.jpeg)
-![gputest_2_1](https://user-images.githubusercontent.com/63254914/122204289-968e1700-cebc-11eb-933c-950bb0961dc6.gif)
-
-![IMG-20210324-WA0054](https://user-images.githubusercontent.com/63254914/121786458-77059e80-cbdd-11eb-857d-4f1eea02548d.jpg)
 
 ## Novelty and innovativeness
 - Concept of using self-transforming bot in fields of inspecting inaccessible arenas.
@@ -67,6 +66,17 @@ An IP camera can be accessed in OpenCV by providing the streaming URL of the cam
 -	Convolutional Neural Networking to detect multiple potential defects that is precise, accurate, faster and reduces the workload of the operator.
 
 ---------------------------------------------------
+## Gallery
+### Drone sketch
+![WhatsApp Image 2021-03-24 at 13 40 13](https://user-images.githubusercontent.com/63254914/121786457-753bdb00-cbdd-11eb-8a6d-b470b71ed607.jpeg)
+
+### Exploded view
+![gputest_2_1](https://user-images.githubusercontent.com/63254914/122204289-968e1700-cebc-11eb-933c-950bb0961dc6.gif)
+
+### HIDQ bot
+![IMG-20210324-WA0054](https://user-images.githubusercontent.com/63254914/121786458-77059e80-cbdd-11eb-857d-4f1eea02548d.jpg)
+
+### Self transforming mechanism
 
 ## Team HIDQ
 - [Aswin Sreekumar](https://github.com/aswin-sreekumar)
