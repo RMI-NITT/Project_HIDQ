@@ -2,7 +2,7 @@
 (about project in brief)
 
 ### Contents 
-- (Problem statement)[#problem-statement]
+- [Problem statement](https://github.com/aswin-sreekumar/HIDQ_Sangam/blob/main/README.md#problem-statement)
 - Proposed solution with block diagram
 - Implementation
   - Sprawl mechanism
