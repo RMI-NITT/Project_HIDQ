@@ -44,12 +44,16 @@ The sprawl mechanism allows the bot to transform from a quadcopter to four wheel
 
 ### PED mechanism
 In the previous designs of this project, both the propellers and the wheels are active throughout the runtime, and this consumes a lot of power. So, we came up with a novel power engage disengage mechanism to actuate either the propellers (quadcopter mode) or the wheels (four wheeled differential drive mode), this ensures that less power is wasted when the drone operates which leads to increased runtime.
+![gputest_2](https://user-images.githubusercontent.com/63254914/122204002-3d25e800-cebc-11eb-870e-8d2952ef6038.gif)
+
 
 ### Autonomous detection
 An IP camera can be accessed in OpenCV by providing the streaming URL of the camera in the constructor of cv2.VideoCapture. The HTTP protocol is used by the camera to stream video. The frames of the streamed video are processed by the deep learning model using keras and TensorFlow framework to detect anomalies on industrial structures. The datasets of cracks and rust from Kaggle and inception v3 model from local pre-trained weights have been used. The model itself is made up of symmetric and asymmetric building blocks, including convolutions, average pooling, max pooling, concats, dropouts, and fully connected layers. Batch norm is used extensively throughout the model and applied to activation inputs. Loss is computed via SoftMax.
 
 ### Drone sketch
 ![WhatsApp Image 2021-03-24 at 13 40 13](https://user-images.githubusercontent.com/63254914/121786457-753bdb00-cbdd-11eb-8a6d-b470b71ed607.jpeg)
+![gputest_2_1](https://user-images.githubusercontent.com/63254914/122204289-968e1700-cebc-11eb-933c-950bb0961dc6.gif)
+
 ![IMG-20210324-WA0054](https://user-images.githubusercontent.com/63254914/121786458-77059e80-cbdd-11eb-857d-4f1eea02548d.jpg)
 
 ## Novelty and innovativeness
