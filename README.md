@@ -44,6 +44,8 @@ The sprawl mechanism allows the bot to transform from a quadcopter to four wheel
 
 ### PED mechanism
 In the previous designs of this project, both the propellers and the wheels are active throughout the runtime, and this consumes a lot of power. So, we came up with a novel power engage disengage mechanism to actuate either the propellers (quadcopter mode) or the wheels (four wheeled differential drive mode), this ensures that less power is wasted when the drone operates which leads to increased runtime.
+
+
 ![gputest_2](https://user-images.githubusercontent.com/63254914/122204002-3d25e800-cebc-11eb-870e-8d2952ef6038.gif)
 
 
