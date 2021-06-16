@@ -2,7 +2,7 @@
 (about project in brief)
 
 ### Contents 
-- Problem statement
+- (Problem statement)[#problem-statement]
 - Proposed solution with block diagram
 - Implementation
   - Sprawl mechanism
@@ -31,8 +31,12 @@
 ![IMG-20210324-WA0054](https://user-images.githubusercontent.com/63254914/121786458-77059e80-cbdd-11eb-857d-4f1eea02548d.jpg)
 
 ## Novelty and innovativeness
-
-
+- Concept of using self-transforming bot in fields of inspecting inaccessible arenas.
+- Using the mobile clutch mechanism (PED) to efficiently transfer power from BLDC to wheels and propellers.
+-	Integrating sprawl mechanism and PED for drone to crawl into tight and narrow spaces using reconfigurable geometry.
+-	Compared to physical inspection by humans, it is safe, faster, more accurate and avoids the need for scaffolding and avoids any risk to human life.
+-	A novel method for the bot to efficiently maneuver and move about any confined space and systems connected at different heights.
+-	Convolutional Neural Networking to detect multiple potential defects that is precise, accurate, faster and reduces the workload of the operator.
 
 ## Team HIDQ
 - [Aswin Sreekumar](https://github.com/aswin-sreekumar)
