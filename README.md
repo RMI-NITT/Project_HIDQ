@@ -1,4 +1,5 @@
-# HIDQ_Sangam
+# HIDQ : Hybrid Inspection Drive Quadcopter
+
 A convertible hybrid drive quadcopter that is manually controlled to move across inaccessible places as a drone or a 4-wheeler bot using a self-transforming mechanism, equipped with camera to inspect various industrial systems and check for defects and anomalies with Machine Learning and Image Processing algorithms at the controller side.
 
 ### Contents 
