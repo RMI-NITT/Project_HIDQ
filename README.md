@@ -46,6 +46,9 @@ This project focuses on building a efficient and innovative solution to this ins
 ### Sprawl mechanism
 The sprawl mechanism allows the bot to transform from a quadcopter to four wheeled differential drive bot. The sprawl angle is the relative angle between the plane of the wheels (and propellers) and the main body. When it is zero, the bot is in quadcopter mode and when the angle is sufficiently high, it can be driven as a four wheeled bot. Worm gears are used to ensure high torque ratio and self-locking mechanism when gears are inactive. Each of the worm gears on the two sides is rotated using the conical gear setup that ensures equal rotational speed but different rotational direction.
 
+![sprawl2](https://user-images.githubusercontent.com/63254914/122222718-22f60500-ced0-11eb-9c0e-118e4ca0450a.gif)
+
+
 ### PED mechanism
 In the previous designs of this project, both the propellers and the wheels are active throughout the runtime, and this consumes a lot of power. So, we came up with a novel power engage disengage mechanism to actuate either the propellers (quadcopter mode) or the wheels (four wheeled differential drive mode), this ensures that less power is wasted when the drone operates which leads to increased runtime.
 
@@ -76,6 +79,7 @@ An IP camera can be accessed in OpenCV by providing the streaming URL of the cam
 ![IMG-20210324-WA0054](https://user-images.githubusercontent.com/63254914/121786458-77059e80-cbdd-11eb-857d-4f1eea02548d.jpg)
 
 ### Self transforming mechanism
+![main](https://user-images.githubusercontent.com/63254914/122221131-9dbe2080-cece-11eb-8260-874edcabec2c.gif)
 
 ## Team HIDQ
 - [Aswin Sreekumar](https://github.com/aswin-sreekumar)
