@@ -2,6 +2,8 @@
 
 A convertible hybrid drive quadcopter that is manually controlled to move across inaccessible places as a drone or a 4-wheeler bot using a self-transforming mechanism, equipped with camera to inspect various industrial systems and check for defects and anomalies with Machine Learning and Image Processing algorithms at the controller side.
 
+This work was published under the title: "Pipeline inspection using self-transforming hybrid drive quad-copter" at the 7th International Conference on Computing in Engineering & Technology (ICCET 2022). Find the paper [here](https://digital-library.theiet.org/content/conferences/10.1049/icp.2022.0620)
+
 ### Contents 
 - [Problem statement](#problem-statement)
 - [Proposed solution](#proposed-solution)
@@ -37,7 +39,7 @@ This project focuses on building a efficient and innovative solution to this ins
 - The convertible bot can be used to inspect various systems of industries like chimney, ventilation systems, HVAC, pressurized tanks, boilers, or any confined space to detect for leakage, corrosion, cracks and other structural defects and anomalies.
 
 ### Block diagram
-![block_diagram](https://user-images.githubusercontent.com/63254914/121786411-458cd300-cbdd-11eb-865a-196d37d3b7b5.png)
+![hidq(2)](https://user-images.githubusercontent.com/63254914/145022849-699dca24-83a7-44fd-983c-b9c089ee6444.png)
 
 ----------------------
 
